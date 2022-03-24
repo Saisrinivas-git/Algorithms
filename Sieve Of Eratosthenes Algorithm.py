@@ -1,7 +1,7 @@
 #Sieve Of Eratosthenes Algorithm
 import math as m
 n=int(input()) #10
-a=[1]*n
+a=[1]*(n+1)
 a[0]=a[1]=0
 for i in range(2,int(m.sqrt(n)+1)):
     if(a[i]):
